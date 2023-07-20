@@ -1,9 +1,9 @@
 import React from 'react'
-import { CartWidget } from './CartWidget'
+import { CartWidget } from './CartWidget'       
 
 export const NavBar = () => {
   return (
-    <nav className='navbar'>
+    <nav className='navbar'>      
         <a href='#' className='logo'><h1>AgusShop</h1></a>
         <ul className='menu'>
           <li><a className='menu-link' href="#">Inicio</a></li>

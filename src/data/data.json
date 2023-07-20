@@ -1,0 +1,21 @@
+[
+    {"id": 1,"product_name":"Tequila Rose Cream Liquor","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/144x100.png/5fa2dd/ffffff","price":18.42,"quantity":17,"category":"bakery"},
+
+    {"id": 2,"product_name":"Cookies - Englishbay Oatmeal","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/116x100.png/dddddd/000000","price":15.74,"quantity":21,"category":"bakery"},
+
+    {"id": 3,"product_name":"Chips - Potato Jalapeno","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/159x100.png/ff4444/ffffff","price":87.62,"quantity":83,"category":"meat"},
+
+    {"id": 4,"product_name":"Bread - Malt","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/141x100.png/5fa2dd/ffffff","price":31.87,"quantity":98,"category":"vegetables"},
+
+    {"id": 5,"product_name":"Creme De Banane - Marie","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/111x100.png/cc0000/ffffff","price":63.76,"quantity":68,"category":"dairy"},
+
+    {"id": 6,"product_name":"English Muffin","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/174x100.png/ff4444/ffffff","price":44.51,"quantity":78,"category":"meat"},
+
+    {"id": 7,"product_name":"Crush - Grape, 355 Ml","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/208x100.png/cc0000/ffffff","price":74.63,"quantity":96,"category":"meat"},
+
+    {"id": 8,"product_name":"Scampi Tail","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/243x100.png/ff4444/ffffff","price":40.8,"quantity":99,"category":"bakery"},
+
+    {"id": 9,"product_name":"Crab - Claws, 26 - 30","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/146x100.png/5fa2dd/ffffff","price":79.47,"quantity":64,"category":"dairy"},
+
+    {"id": 10,"product_name":"Appetizer - Southwestern","descripcion": "Aenean auctor gravida sem.","brand":"http://dummyimage.com/133x100.png/5fa2dd/ffffff","price":25.49,"quantity":5,"category":"meat"}
+]

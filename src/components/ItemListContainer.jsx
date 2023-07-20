@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { Tarjeta } from './Card'
+import { pedirDatos } from '../helpers/pedirDatos'
+import { ItemList } from './ItemList';
 
+export const ItemListContainer = () => {
 
-export const ItemListContainer = ({parrafo}) => {
+  const [productos, setProductos] = useState([]);
+  
+  useEffect(() => {
+    pedirDatos ()
+      .then ((res) => {
+        setProductos(res);
+
+      })
+  }, [])
+  
   return (
     <div>
-        {parrafo}
+        <ItemList productos={productos} />
     </div>
   )
 }
