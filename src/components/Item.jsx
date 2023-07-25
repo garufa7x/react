@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Item = ({producto}) => {
   return (
     <div className='producto'>
         <img src={producto.brand} alt="" />
-        <dir>
+        <div>
             <h4>{producto.product_name}</h4>
             <p>Precio: ${producto.price}</p>
             <p>Categoría: {producto.category}</p>
-            <a className='ver-mas' href={`/item/${producto.id}`}>Ver más</a>
+            <Link className='ver-mas' to={`/item/${producto.id}`}>Ver más</Link>
             
-        </dir>
+        </div>
 
     </div>
   )
