@@ -64,6 +64,7 @@
 }
 
 .producto .ver-mas {
+    display: flex;
     text-decoration: none;
     background-color:rgb(9, 234, 155);
     color: white;
@@ -71,6 +72,7 @@
     width: max-content;
     border-radius: .5rem;
     transition: .2s;
+    gap: 4rem;
 }
 
 .producto .ver-mas:hover {
@@ -83,4 +85,25 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 2rem;
+}
+
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item-count button {
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
