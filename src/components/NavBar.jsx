@@ -15,7 +15,7 @@ export const NavBar = () => {
           <li><Link className='menu-link' to="/productos/vegetables">Vegetales</Link></li>
           <li><Link className='menu-link' to="/nosotros">Nostros</Link></li>
           <li><Link className='menu-link' to="/contacto">Contacto</Link></li>
-          <li><CartWidget cantidad={5} /></li>
+          <li><CartWidget /></li>
           
         </ul>
       
