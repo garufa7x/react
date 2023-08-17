@@ -3,6 +3,9 @@ import { CartContext } from '../Context/CartContext';
 import { useForm } from 'react-hook-form';
 import { collection, addDoc } from "firebase/firestore";
 import { db } from '../Firebase/config';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export const Checkout = () => {
 
@@ -30,25 +33,28 @@ export const Checkout = () => {
     }
     if (pedidoId) {
         return (
-            <div className="container">
-                <h1 className="main-title">¡Gracias por tu compra!</h1>
-                <p>Tu número de pedido es: {pedidoId}</p>
-            </div>
+            <Container>
+                <Row>
+                    <Col>
+                        <div className="container">
+                            <h1 className="main-title">¡Gracias por tu compra!</h1>
+                        </div>                        
+                        <p className='npedido'>Tu número de pedido es: {pedidoId}</p>                        
+                    </Col>
+                </Row>
+            </Container>
         )
     }
 
     return (
-        <div><div className="container">
+        <div className="container">
             <h1 className="main-title">Finaliza tu compra</h1>
             <form className="formulario" onSubmit={handleSubmit(comprar)}>
-
                 <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />
                 <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
                 <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
-
                 <button className="enviar" type="submit">Comprar</button>
-
             </form>
-        </div></div>
+        </div>
     )
 }

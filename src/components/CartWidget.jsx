@@ -9,7 +9,7 @@ export const CartWidget = () => {
 
   return (
     <div>
-      <Link className="menu-link" to="/carrito"><i className="bi bi-cart"></i> <span className="numerito">{cantidadEnCarrito()}</span></Link>
+      <Link className="menu-link" to="/carrito"><i className="bi bi-cart-fill"></i> <span className="numero">{cantidadEnCarrito()}</span></Link>
 
     </div>
   )
